@@ -14,7 +14,7 @@ header {
     rgba(0,0,0,0.6),
     rgba(0,0,0,0.6)
   ),
-  url("images/hero.jpg");
+  url("hero.jpg");
 
   background-size: cover;
   background-position: center;
@@ -180,13 +180,19 @@ h2 {
 
   border-radius: 12px;
 
-  max-width: 450px;
-
-  margin-top: 40px;
+  width: 350px;
 
   text-align: left;
 
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  margin-top: 40px;
+}
+
+.stars {
+  font-size: 24px;
+
+  margin-bottom: 15px;
 }
 
 .testimonial h3 {
